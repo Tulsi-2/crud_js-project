@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
     const phone = document.querySelector('#phone').value
 
     
-    if((name == "") && (email == "") && (phone == "")){
+    if((name == "") || (email == "") || (phone == "")){
         alert("Please fill all the fields")
     
     }
