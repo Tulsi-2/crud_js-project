@@ -40,7 +40,7 @@ btn.addEventListener("click", () => {
 let parseArr = JSON.parse(localStorage.getItem("ary"))
 console.log(parseArr)
 
-parseArr.map((item,index) => {
+parseArr.map((item) => {
   const tableData = document.querySelector("tbody");
   console.log(item);
   let row = document.createElement("tr");
